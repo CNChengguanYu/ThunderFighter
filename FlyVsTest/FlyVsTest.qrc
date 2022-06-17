@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/FlyVsTest">
+        <file>image/lock.png</file>
+        <file>image/bk.png</file>
+        <file>image/plane.png</file>
+        <file>image/plane_left.png</file>
+        <file>image/plane_right.png</file>
+        <file>image/beijing_test1.jpg</file>
+        <file>image/beijing_test1.png</file>
+    </qresource>
+</RCC>
