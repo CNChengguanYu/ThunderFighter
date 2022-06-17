@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ErrWindow</class>
+ <widget class="QWidget" name="ErrWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>350</width>
+    <height>150</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>350</width>
+    <height>150</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>350</width>
+    <height>150</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>ErrWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="ThunderFighter.qrc">
+    <normaloff>:/ThunderFighter/image/logo.ico</normaloff>:/ThunderFighter/image/logo.ico</iconset>
+  </property>
+  <widget class="QPushButton" name="CloseBtn">
+   <property name="geometry">
+    <rect>
+     <x>125</x>
+     <y>100</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Errcode">
+   <property name="geometry">
+    <rect>
+     <x>75</x>
+     <y>10</y>
+     <width>200</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Errinfo">
+   <property name="geometry">
+    <rect>
+     <x>75</x>
+     <y>50</y>
+     <width>200</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="ThunderFighter.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>CloseBtn</sender>
+   <signal>clicked()</signal>
+   <receiver>ErrWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>174</x>
+     <y>154</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>174</x>
+     <y>87</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

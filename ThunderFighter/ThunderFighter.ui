@@ -1,0 +1,25 @@
+<UI version="4.0" >
+ <class>ThunderFighterClass</class>
+ <widget class="QWidget" name="ThunderFighterClass" >
+  <property name="objectName" >
+   <string notr="true">ThunderFighterClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>600</width>
+	<height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>ThunderFighter</string>
+  </property>
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="ThunderFighter.qrc"/>
+ </resources>
+ <connections/>
+</UI>

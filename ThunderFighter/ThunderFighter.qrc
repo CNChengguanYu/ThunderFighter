@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/ThunderFighter">
+        <file>image/loginmenu_img.png</file>
+        <file>image/loginmenu_main_img.png</file>
+        <file>image/closeButton.png</file>
+        <file>image/logo.ico</file>
+    </qresource>
+</RCC>
